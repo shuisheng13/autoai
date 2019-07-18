@@ -1,0 +1,721 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="534ee06e-2fe7-4e07-b951-339172bd5913" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/autoai-demol/src/main/java/com/navinfo/autoai/autoaidemol/config/AppConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/autoai-demol/src/main/java/com/navinfo/autoai/autoaidemol/config/LoggerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/autoai-demol/src/main/java/com/navinfo/autoai/autoaidemol/controller/HelloController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/autoai-demol/src/main/java/com/navinfo/autoai/autoaidemol/controller/ProductController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/autoai-demol/src/main/java/com/navinfo/autoai/autoaidemol/domain/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/autoai-demol/src/main/java/com/navinfo/autoai/autoaidemol/mapper/ProductMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/autoai-demol/src/main/java/com/navinfo/autoai/autoaidemol/service/IProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/autoai-demol/src/main/java/com/navinfo/autoai/autoaidemol/service/impl/ProductServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/autoai-demol/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/autoai-demol/src/main/resources/mapping/ProductMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/autoai-eureka/src/main/java/com/navinfo/autoai/autoaieureka/AutoaiEurekaApplication2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/autoai-eureka/src/main/java/com/navinfo/autoai/autoaieureka/AutoaiEurekaApplication3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/autoai-eureka/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parent.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="E:/launcer_pay/wecloud-launcher-dev_20190505-6962d97830e6c9c3e926f3a9b308dddcb63bcb5d/launcher-common/src/main/java/com/pactera/utlis/HttpTest.java" afterDir="false" />
+      <change afterPath="E:/launcer_pay/wecloud-launcher-dev_20190505-6962d97830e6c9c3e926f3a9b308dddcb63bcb5d/launcher-system/src/main/java/com/pactera/business/controller/UnifyPayController.java" afterDir="false" />
+      <change afterPath="E:/launcer_pay/wecloud-launcher-dev_20190505-6962d97830e6c9c3e926f3a9b308dddcb63bcb5d/launcher-vehicle/src/main/java/com/pactera/business/controller/UnifyPayController.java" afterDir="false" />
+      <change afterPath="E:/launcer_pay/wecloud-launcher-dev_20190505-6962d97830e6c9c3e926f3a9b308dddcb63bcb5d/launcher-vehicle/src/main/java/com/pactera/business/controller/ty/TestPay.java" afterDir="false" />
+      <change afterPath="E:/launcer_pay/wecloud-launcher-dev_20190505-6962d97830e6c9c3e926f3a9b308dddcb63bcb5d/launcher-vehicle/src/main/java/com/pactera/config/weixin/QrCodeUtil.java" afterDir="false" />
+      <change afterPath="E:/launcer_pay/wecloud-launcher-dev_20190505-6962d97830e6c9c3e926f3a9b308dddcb63bcb5d/launcher-vehicle/src/main/java/com/pactera/config/weixin/SearchUtil.java" afterDir="false" />
+      <change afterPath="E:/launcer_pay/wecloud-launcher-dev_20190505-6962d97830e6c9c3e926f3a9b308dddcb63bcb5d/launcher-vehicle/src/main/java/com/pactera/dto/UnifyPay.java" afterDir="false" />
+      <change afterPath="E:/my_demol/demo/src/main/resources/templates/hello.html" afterDir="false" />
+      <change afterPath="E:/python_space/test/Hellow2.py" afterDir="false" />
+      <change afterPath="E:/python_space/test/hellow3.py" afterDir="false" />
+      <change afterPath="E:/python_space/test/helloworld.py" afterDir="false" />
+      <change afterPath="E:/python_space/test/pac.py" afterDir="false" />
+      <change afterPath="E:/python_space/test/pac10.py" afterDir="false" />
+      <change afterPath="E:/python_space/test/pac2.py" afterDir="false" />
+      <change afterPath="E:/python_space/test/pac3.py" afterDir="false" />
+      <change afterPath="E:/python_space/test/pac4.py" afterDir="false" />
+      <change afterPath="E:/python_space/test/pac5.py" afterDir="false" />
+      <change afterPath="E:/python_space/test/pac6.py" afterDir="false" />
+      <change afterPath="E:/python_space/test/pac7.py" afterDir="false" />
+      <change afterPath="E:/python_space/test/pac8.py" afterDir="false" />
+      <change afterPath="E:/python_space/test/pac9.py" afterDir="false" />
+      <change afterPath="E:/testdemol/src/main/java/com/example/demo/controller/HellowController.java" afterDir="false" />
+      <change afterPath="E:/testdemol/src/main/java/com/example/demo/controller/IndexController.java" afterDir="false" />
+      <change afterPath="E:/testdemol/src/main/resources/templates/hello.html" afterDir="false" />
+      <change afterPath="E:/testdemol/src/main/resources/templates/index.html" afterDir="false" />
+      <change afterPath="E:/zkxt/设计模式/patterns/patterns.iml" afterDir="false" />
+      <change afterPath="E:/zkxt/（01）并发编程/11-2018.05.29-第十一节课/vip-concurrent/vip-concurrent.iml" afterDir="false" />
+      <change afterPath="E:/zkxt/（08）高性能Netty框架/04-2018.10.09-第四节课/space/basic/basic.iml" afterDir="false" />
+      <change beforePath="E:/springcloud/spring-cloud-gateway-master/spring-cloud-gateway-sample/pom.xml" beforeDir="false" afterPath="E:/springcloud/spring-cloud-gateway-master/spring-cloud-gateway-sample/pom.xml" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/autoai-product/target/" />
+    <ignored path="$PROJECT_DIR$/autoai-channel/target/" />
+    <ignored path="$PROJECT_DIR$/autoai-flow/target/" />
+    <ignored path="$PROJECT_DIR$/autoai-demol/target/" />
+    <ignored path="$PROJECT_DIR$/autoai-eureka/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/autoai-demol/src/main/java/com/navinfo/autoai/autoaidemol/config/LoggerConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="246">
+              <caret line="26" column="17" selection-start-line="26" selection-start-column="17" selection-end-line="26" selection-end-column="17" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#507#508#0" expanded="true" />
+                <element signature="e#545#546#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/autoai-demol/src/main/resources/application.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="314">
+              <caret line="39" column="27" lean-forward="true" selection-start-line="39" selection-start-column="27" selection-end-line="39" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://E:/repository/org/springframework/spring-beans/5.0.11.RELEASE/spring-beans-5.0.11.RELEASE.jar!/org/springframework/beans/factory/support/AbstractBeanFactory.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="110">
+              <caret line="622" selection-start-line="622" selection-end-line="622" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/autoai-demol/src/main/java/com/navinfo/autoai/autoaidemol/controller/HelloController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="407">
+              <caret line="25" column="2" selection-start-line="25" selection-start-column="2" selection-end-line="25" selection-end-column="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/autoai-demol/src/main/java/com/navinfo/autoai/autoaidemol/config/AppConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="324">
+              <caret line="12" column="7" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/autoai-demol/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="261">
+              <caret line="63" column="36" selection-start-line="63" selection-start-column="36" selection-end-line="63" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/autoai-demol/src/main/java/com/navinfo/autoai/autoaidemol/AutoaiDemolApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="8" column="50" lean-forward="true" selection-start-line="8" selection-start-column="50" selection-end-line="8" selection-end-column="50" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#369#370#0" expanded="true" />
+                <element signature="e#442#443#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/autoai-eureka/src/main/java/com/navinfo/autoai/autoaieureka/AutoaiEurekaApplication3.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="297">
+              <caret line="15" selection-start-line="15" selection-end-line="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/autoai-eureka/src/main/java/com/navinfo/autoai/autoaieureka/AutoaiEurekaApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="10" column="24" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>druid</find>
+      <find>relativePath</find>
+      <find>com.yhh.springcloud.api</find>
+      <find>spring-boot-starter-web</find>
+      <find>registry</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="E:/" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/autoai-demol/src/main/java/com/navinfo/autoai/autoaidemol/domain/Product.java" />
+        <option value="$PROJECT_DIR$/autoai-demol/src/main/java/com/navinfo/autoai/autoaidemol/mapper/ProductMapper.java" />
+        <option value="$PROJECT_DIR$/autoai-demol/src/main/java/com/navinfo/autoai/autoaidemol/service/IProductService.java" />
+        <option value="$PROJECT_DIR$/autoai-demol/src/main/java/com/navinfo/autoai/autoaidemol/service/impl/ProductServiceImpl.java" />
+        <option value="$PROJECT_DIR$/autoai-demol/src/main/java/com/navinfo/autoai/autoaidemol/controller/ProductController.java" />
+        <option value="$PROJECT_DIR$/autoai-demol/src/main/resources/mapping/ProductMapper.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/autoai-eureka/pom.xml" />
+        <option value="$PROJECT_DIR$/autoai-eureka/src/main/java/com/navinfo/autoai/autoaieureka/AutoaiEurekaApplication.java" />
+        <option value="$PROJECT_DIR$/autoai-eureka/src/main/java/com/navinfo/autoai/autoaieureka/AutoaiEurekaApplication2.java" />
+        <option value="$PROJECT_DIR$/autoai-eureka/src/main/java/com/navinfo/autoai/autoaieureka/AutoaiEurekaApplication3.java" />
+        <option value="$PROJECT_DIR$/autoai-eureka/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/autoai-demol/Readme.txt" />
+        <option value="$PROJECT_DIR$/autoai-demol/src/main/java/com/navinfo/autoai/autoaidemol/config/AppConfig.java" />
+        <option value="$PROJECT_DIR$/autoai-demol/pom.xml" />
+        <option value="$PROJECT_DIR$/autoai-demol/src/main/java/com/navinfo/autoai/autoaidemol/config/LoggerConfig.java" />
+        <option value="$PROJECT_DIR$/autoai-demol/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/autoai-demol/src/main/java/com/navinfo/autoai/autoaidemol/AutoaiDemolApplication.java" />
+        <option value="$PROJECT_DIR$/autoai-demol/src/main/java/com/navinfo/autoai/autoaidemol/controller/HelloController.java" />
+        <option value="$PROJECT_DIR$/autoai-demol/src/main/resources/application.yml" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="E:\repository" />
+        <option name="mavenHome" value="E:/apache-maven-3.6.1-bin/apache-maven-3.6.1" />
+        <option name="userSettingsFile" value="E:\apache-maven-3.6.1-bin\apache-maven-3.6.1\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="disabledProfiles">
+      <list>
+        <option value="jdk-1.7" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="autoai-demol" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="autoai-demol" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="parent" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="parent" type="462c0819:PsiDirectoryNode" />
+              <item name="autoai-demol" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="parent" type="462c0819:PsiDirectoryNode" />
+              <item name="autoai-demol" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="parent" type="462c0819:PsiDirectoryNode" />
+              <item name="autoai-demol" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="parent" type="462c0819:PsiDirectoryNode" />
+              <item name="autoai-demol" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="parent" type="462c0819:PsiDirectoryNode" />
+              <item name="autoai-demol" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="autoaidemol" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="parent" type="462c0819:PsiDirectoryNode" />
+              <item name="autoai-demol" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="autoaidemol" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="parent" type="462c0819:PsiDirectoryNode" />
+              <item name="autoai-demol" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1563444754291" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.navinfo.autoai.autoaieureka" />
+      <recent name="com.navinfo.autoai.autoaidemol.domain" />
+      <recent name="com.navinfo.autoai.autoaidemol.service.impl" />
+      <recent name="com.navinfo.autoai.autoaidemol.service" />
+      <recent name="com.navinfo.autoai.autoaidemol.mapper" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\autoai\parent\autoai-demol\src\main\resources" />
+      <recent name="E:\autoai\parent\autoai-demol\src\main\resources\mapping" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.AutoaiDemolApplication">
+    <configuration name="AutoaiChannelApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="autoai-channel" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.navinfo.autoai.autoaichannel.AutoaiChannelApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AutoaiDemolApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="autoai-demol" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.navinfo.autoai.autoaidemol.AutoaiDemolApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AutoaiEurekaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="autoai-eureka" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.navinfo.autoai.autoaieureka.AutoaiEurekaApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <additionalParameters>
+        <param>
+          <option name="enabled" value="true" />
+          <option name="name" value="spring.profiles" />
+          <option name="value" value="dev-7002" />
+        </param>
+      </additionalParameters>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AutoaiEurekaApplication2" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="autoai-eureka" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.navinfo.autoai.autoaieureka.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.navinfo.autoai.autoaieureka.AutoaiEurekaApplication2" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <additionalParameters>
+        <param>
+          <option name="enabled" value="true" />
+          <option name="name" value="spring.profiles.active" />
+          <option name="value" value="dev-7001" />
+        </param>
+      </additionalParameters>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AutoaiEurekaApplication3" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="autoai-eureka" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.navinfo.autoai.autoaieureka.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.navinfo.autoai.autoaieureka.AutoaiEurekaApplication3" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AutoaiFlowApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="autoai-flow" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.navinfo.autoai.autoaiflow.AutoaiFlowApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AutoaiProductApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="autoai-product" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.navinfo.autoai.autoaiproduct.AutoaiProductApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Spring Boot.AutoaiChannelApplication" />
+      <item itemvalue="Spring Boot.AutoaiDemolApplication" />
+      <item itemvalue="Spring Boot.AutoaiEurekaApplication" />
+      <item itemvalue="Spring Boot.AutoaiFlowApplication" />
+      <item itemvalue="Spring Boot.AutoaiProductApplication" />
+      <item itemvalue="Spring Boot.AutoaiEurekaApplication2" />
+      <item itemvalue="Spring Boot.AutoaiEurekaApplication3" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.AutoaiEurekaApplication2" />
+        <item itemvalue="Spring Boot.AutoaiEurekaApplication3" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="534ee06e-2fe7-4e07-b951-339172bd5913" name="Default Changelist" comment="" />
+      <created>1563429303143</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1563429303143</updated>
+      <workItem from="1563429305078" duration="9216000" />
+      <workItem from="1563438890801" duration="5776000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="14992000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Spring" order="0" />
+      <window_info anchor="bottom" id="Terminal" order="1" />
+      <window_info anchor="bottom" id="Docker" order="2" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="Java Enterprise" order="4" />
+      <window_info anchor="bottom" id="Database Changes" order="5" />
+      <window_info anchor="bottom" id="Version Control" order="6" />
+      <window_info anchor="bottom" id="Message" order="7" />
+      <window_info anchor="bottom" id="Find" order="8" />
+      <window_info anchor="bottom" id="Run" order="9" weight="0.54989153" />
+      <window_info active="true" anchor="bottom" id="Debug" order="10" visible="true" weight="0.36767897" />
+      <window_info anchor="bottom" id="Cvs" order="11" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="12" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="13" weight="0.329718" />
+      <window_info anchor="bottom" id="Messages" order="14" weight="0.329718" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" visible="true" weight="0.20469083" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Mybatis datasource" order="6" side_tool="true" />
+      <window_info anchor="right" id="Database" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Theme Preview" order="9" />
+      <window_info anchor="right" id="Bean Validation" order="10" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/autoai-product/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/autoai-demol/src/main/java/com/navinfo/autoai/autoaidemol/service/A.java" />
+    <entry file="file://$PROJECT_DIR$/autoai-demol/src/main/java/com/navinfo/autoai/autoaidemol/service/impl/ProductServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/autoai-demol/src/main/java/com/navinfo/autoai/autoaidemol/service/IProductService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="8" column="25" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/autoai-demol/src/main/java/com/navinfo/autoai/autoaidemol/mapper/ProductMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="8" selection-start-column="8" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/autoai-demol/src/main/java/com/navinfo/autoai/autoaidemol/domain/Product.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/autoai-demol/src/main/resources/mapping/ProductMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="10" column="86" selection-start-line="10" selection-start-column="86" selection-end-line="10" selection-end-column="86" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/autoai-demol/src/main/java/com/navinfo/autoai/autoaidemol/controller/ProductController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="24" column="31" selection-start-line="24" selection-start-column="28" selection-end-line="24" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="268">
+          <caret line="21" column="38" selection-start-line="21" selection-start-column="38" selection-end-line="21" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/autoai-eureka/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="15" column="59" selection-start-line="15" selection-start-column="59" selection-end-line="15" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/autoai-flow/src/test/java/com/navinfo/autoai/autoaiflow/AutoaiFlowApplicationTests.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/autoai-demol/Readme.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/autoai-eureka/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1485">
+          <caret line="55" column="50" selection-start-line="55" selection-start-column="50" selection-end-line="55" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/autoai-eureka/src/main/java/com/navinfo/autoai/autoaieureka/AutoaiEurekaApplication2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/autoai-eureka/src/main/java/com/navinfo/autoai/autoaieureka/AutoaiEurekaApplication3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/autoai-demol/src/main/java/com/navinfo/autoai/autoaidemol/config/AppConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="12" column="7" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/autoai-eureka/src/main/java/com/navinfo/autoai/autoaieureka/AutoaiEurekaApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="10" column="24" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/autoai-demol/src/main/resources/test.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="13" column="20" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/repository/org/springframework/spring-beans/5.0.11.RELEASE/spring-beans-5.0.11.RELEASE.jar!/org/springframework/beans/factory/support/AbstractBeanFactory.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="622" selection-start-line="622" selection-end-line="622" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/autoai-demol/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="7" column="39" lean-forward="true" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/autoai-demol/src/main/java/com/navinfo/autoai/autoaidemol/config/LoggerConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="246">
+          <caret line="26" column="17" selection-start-line="26" selection-start-column="17" selection-end-line="26" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#507#508#0" expanded="true" />
+            <element signature="e#545#546#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/autoai-demol/src/main/java/com/navinfo/autoai/autoaidemol/controller/HelloController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="407">
+          <caret line="25" column="2" selection-start-line="25" selection-start-column="2" selection-end-line="25" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/autoai-demol/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="63" column="36" selection-start-line="63" selection-start-column="36" selection-end-line="63" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/autoai-demol/src/main/java/com/navinfo/autoai/autoaidemol/AutoaiDemolApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="8" column="50" lean-forward="true" selection-start-line="8" selection-start-column="50" selection-end-line="8" selection-end-column="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#369#370#0" expanded="true" />
+            <element signature="e#442#443#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/autoai-demol/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="314">
+          <caret line="39" column="27" lean-forward="true" selection-start-line="39" selection-start-column="27" selection-end-line="39" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

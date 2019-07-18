@@ -1,0 +1,48 @@
+server:
+  port: 8089
+mybatis:
+  mapper-locations: # 所有的mapper映射文件
+    -  classpath:mapping/*.xml
+spring:
+  application:
+    name: autoai-demol
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource # 配置当前要使用的数据源的操作类型
+    driver-class-name: com.mysql.jdbc.Driver # 配置MySQL的驱动程序类
+    url: jdbc:mysql://47.107.185.140:3306/springcloud?serverTimezone=GMT%2B8 # 数据库连接地址
+    username: root # 数据库用户名
+    password: 123456 # 数据库连接密码
+
+#####阿波羅配置
+
+app:
+  id: test
+apollo:
+  meta: http://47.107.185.140:8080
+  bootstrap:
+    enabled: true
+    eagerLoad:
+      enabled: true
+    namespaces: application
+  level:
+    cn.enjoy.mapper: debug
+
+
+eureka:
+  client: # 客户端进行Eureka注册的配置
+    register-with-eureka: false
+    @fetch-registry: false
+    service-url:
+      #defaultZone: http://localhost:7001/eureka
+      defaultZone: http://eureka1:7001/eureka,http://eureka2:7002/eureka,http://eureka3:7003/eureka
+  instance:
+    instance-id: autoai-demol
+    prefer-ip-address: true
+    lease-renewal-interval-in-seconds: 2 # 设置心跳的时间间隔（默认是30秒）
+    lease-expiration-duration-in-seconds: 5  # 如果现在超过了5秒的间隔（默认是90秒）
+
+info:
+  app.name: autoai-demol
+  company.name: enjoy
+  build.artifactId: $project.artifactId$
+  build.modelVersion: $project.modelVersion$
