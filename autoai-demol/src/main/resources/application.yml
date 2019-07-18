@@ -21,8 +21,8 @@ apollo:
   meta: http://47.107.185.140:8080
   bootstrap:
     enabled: true
-    eagerLoad:
-      enabled: true
+#    eagerLoad:
+#      enabled: true
     namespaces: application
   level:
     cn.enjoy.mapper: debug
@@ -31,7 +31,7 @@ apollo:
 eureka:
   client: # 客户端进行Eureka注册的配置
     register-with-eureka: false
-    @fetch-registry: false
+    #fetch-registry: false
     service-url:
       #defaultZone: http://localhost:7001/eureka
       defaultZone: http://eureka1:7001/eureka,http://eureka2:7002/eureka,http://eureka3:7003/eureka

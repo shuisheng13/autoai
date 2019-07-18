@@ -7,7 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
 @MapperScan("com.navinfo.autoai.autoaidemol.mapper")
-@EnableApolloConfig
+//@EnableApolloConfig
 public class AutoaiDemolApplication {
 
     public static void main(String[] args) {
