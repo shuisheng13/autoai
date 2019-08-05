@@ -57,33 +57,33 @@
         </dependency>
     </dependencies>
 </dependencyManagement>
-    <build>
-        <finalName>microcloud</finalName>
-        <resources>
-            <resource>
-                <directory>src/main/resources</directory>
-                <filtering>true</filtering>
-            </resource>
-        </resources>
-        <plugins>
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-resources-plugin</artifactId>
-                <configuration>
-                    <delimiters>
-                        <delimiter>$</delimiter>
-                    </delimiters>
-                </configuration>
-            </plugin>
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-compiler-plugin</artifactId>
+    <!--<build>-->
+        <!--<finalName>microcloud</finalName>-->
+        <!--<resources>-->
+            <!--<resource>-->
+                <!--<directory>src/main/resources</directory>-->
+                <!--<filtering>true</filtering>-->
+            <!--</resource>-->
+        <!--</resources>-->
+        <!--<plugins>-->
+            <!--<plugin>-->
+                <!--<groupId>org.apache.maven.plugins</groupId>-->
+                <!--<artifactId>maven-resources-plugin</artifactId>-->
                 <!--<configuration>-->
-                    <!--<source>${jdk.version}</source>&lt;!&ndash; 源代码使用的开发版本 &ndash;&gt;-->
-                    <!--<target>${jdk.version}</target>&lt;!&ndash; 需要生成的目标class文件的编译版本 &ndash;&gt;-->
+                    <!--<delimiters>-->
+                        <!--<delimiter>$</delimiter>-->
+                    <!--</delimiters>-->
                 <!--</configuration>-->
-            </plugin>
-        </plugins>
-    </build>
+            <!--</plugin>-->
+            <!--<plugin>-->
+                <!--<groupId>org.apache.maven.plugins</groupId>-->
+                <!--<artifactId>maven-compiler-plugin</artifactId>-->
+                <!--&lt;!&ndash;<configuration>&ndash;&gt;-->
+                    <!--&lt;!&ndash;<source>${jdk.version}</source>&lt;!&ndash; 源代码使用的开发版本 &ndash;&gt;&ndash;&gt;-->
+                    <!--&lt;!&ndash;<target>${jdk.version}</target>&lt;!&ndash; 需要生成的目标class文件的编译版本 &ndash;&gt;&ndash;&gt;-->
+                <!--&lt;!&ndash;</configuration>&ndash;&gt;-->
+            <!--</plugin>-->
+        <!--</plugins>-->
+    <!--</build>-->
 
 </project>
