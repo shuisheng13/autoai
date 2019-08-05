@@ -32,7 +32,12 @@
       <change afterPath="E:/zkxt/（08）高性能Netty框架/04-2018.10.09-第四节课/space/basic/basic.iml" afterDir="false" />
       <change afterPath="E:/zkxt/（13）消息中间件/06-2018.12.04-第六节课/class6/rabbitmq/native/native.iml" afterDir="false" />
       <change afterPath="E:/zkxt/（13）消息中间件/06-2018.12.04-第六节课/class6/rabbitmq/rabbitmq.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autoai-channel/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/autoai-channel/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autoai-demol/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/autoai-demol/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autoai-eureka/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/autoai-eureka/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autoai-flow/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/autoai-flow/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autoai-product/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/autoai-product/pom.xml" afterDir="false" />
       <change beforePath="E:/springcloud/spring-cloud-gateway-master/spring-cloud-gateway-sample/pom.xml" beforeDir="false" afterPath="E:/springcloud/spring-cloud-gateway-master/spring-cloud-gateway-sample/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -50,15 +55,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/autoai-demol/src/main/java/com/navinfo/autoai/autoaidemol/config/PropertiesUtils.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="81">
-              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/autoai-demol/src/main/java/com/navinfo/autoai/autoaidemol/controller/HelloController.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -80,11 +76,29 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="609">
-              <caret line="86" column="19" lean-forward="true" selection-start-line="86" selection-start-column="19" selection-end-line="86" selection-end-column="19" />
+            <state relative-caret-position="189">
+              <caret line="7" column="36" lean-forward="true" selection-start-line="7" selection-start-column="36" selection-end-line="7" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/autoai-channel/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="8" column="27" lean-forward="true" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/autoai-product/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="8" column="27" lean-forward="true" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="27" />
             </state>
           </provider>
         </entry>
@@ -99,37 +113,31 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/autoai-eureka/src/main/java/com/navinfo/autoai/autoaieureka/AutoaiEurekaApplication.java">
+        <entry file="file://$PROJECT_DIR$/autoai-demol/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="216">
-              <caret line="10" column="24" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="27" />
+              <caret line="8" column="27" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="27" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/autoai-eureka/src/main/java/com/navinfo/autoai/autoaieureka/AutoaiEurekaApplication2.java">
+        <entry file="file://$PROJECT_DIR$/autoai-eureka/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+            <state relative-caret-position="216">
+              <caret line="8" column="28" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="28" />
+              <folding>
+                <marker date="1564982888758" expanded="true" signature="439:454" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/autoai-eureka/src/main/java/com/navinfo/autoai/autoaieureka/AutoaiEurekaApplication3.java">
+        <entry file="file://$PROJECT_DIR$/autoai-flow/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/autoai-flow/src/main/java/com/navinfo/autoai/autoaiflow/AutoaiFlowApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="13" selection-start-line="13" selection-end-line="13" />
+            <state relative-caret-position="216">
+              <caret line="8" column="27" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="27" />
             </state>
           </provider>
         </entry>
@@ -160,6 +168,7 @@
       <find>spring-boot-starter-web</find>
       <find>registry</find>
       <find>78</find>
+      <find>parent.relativePath</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -174,14 +183,12 @@
         <option value="$PROJECT_DIR$/autoai-demol/src/main/java/com/navinfo/autoai/autoaidemol/service/impl/ProductServiceImpl.java" />
         <option value="$PROJECT_DIR$/autoai-demol/src/main/java/com/navinfo/autoai/autoaidemol/controller/ProductController.java" />
         <option value="$PROJECT_DIR$/autoai-demol/src/main/resources/mapping/ProductMapper.xml" />
-        <option value="$PROJECT_DIR$/autoai-eureka/pom.xml" />
         <option value="$PROJECT_DIR$/autoai-eureka/src/main/java/com/navinfo/autoai/autoaieureka/AutoaiEurekaApplication.java" />
         <option value="$PROJECT_DIR$/autoai-eureka/src/main/java/com/navinfo/autoai/autoaieureka/AutoaiEurekaApplication2.java" />
         <option value="$PROJECT_DIR$/autoai-eureka/src/main/java/com/navinfo/autoai/autoaieureka/AutoaiEurekaApplication3.java" />
         <option value="$PROJECT_DIR$/autoai-eureka/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/autoai-demol/Readme.txt" />
         <option value="$PROJECT_DIR$/autoai-demol/src/main/java/com/navinfo/autoai/autoaidemol/config/AppConfig.java" />
-        <option value="$PROJECT_DIR$/autoai-demol/pom.xml" />
         <option value="$PROJECT_DIR$/autoai-demol/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/autoai-demol/src/main/java/com/navinfo/autoai/autoaidemol/controller/HelloController.java" />
         <option value="$PROJECT_DIR$/autoai-demol/src/main/resources/application.yml" />
@@ -191,6 +198,11 @@
         <option value="$PROJECT_DIR$/autoai-demol/src/main/java/com/navinfo/autoai/autoaidemol/AutoaiDemolApplication.java" />
         <option value="$PROJECT_DIR$/autoai-channel/src/main/java/com/navinfo/autoai/autoaichannel/AutoaiChannelApplication.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/autoai-channel/pom.xml" />
+        <option value="$PROJECT_DIR$/autoai-demol/pom.xml" />
+        <option value="$PROJECT_DIR$/autoai-eureka/pom.xml" />
+        <option value="$PROJECT_DIR$/autoai-flow/pom.xml" />
+        <option value="$PROJECT_DIR$/autoai-product/pom.xml" />
       </list>
     </option>
   </component>
@@ -249,6 +261,21 @@
               <item name="parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="parent" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="parent" type="462c0819:PsiDirectoryNode" />
+              <item name="autoai-channel" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="parent" type="462c0819:PsiDirectoryNode" />
+              <item name="autoai-flow" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="parent" type="462c0819:PsiDirectoryNode" />
+              <item name="autoai-product" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -264,7 +291,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1564982753323" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1564982902988" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -401,12 +428,12 @@
       <updated>1563429303143</updated>
       <workItem from="1563429305078" duration="9216000" />
       <workItem from="1563438890801" duration="7956000" />
-      <workItem from="1564975750866" duration="1613000" />
+      <workItem from="1564975750866" duration="1763000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18785000" />
+    <option name="totallyTimeSpent" value="18935000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -421,7 +448,7 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -438,7 +465,7 @@
       <window_info anchor="bottom" id="Version Control" order="6" />
       <window_info anchor="bottom" id="Message" order="7" />
       <window_info anchor="bottom" id="Find" order="8" />
-      <window_info active="true" anchor="bottom" id="Run" order="9" visible="true" weight="0.03253796" />
+      <window_info anchor="bottom" id="Run" order="9" visible="true" weight="0.18004338" />
       <window_info anchor="bottom" id="Debug" order="10" weight="0.68329716" />
       <window_info anchor="bottom" id="Cvs" order="11" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="12" weight="0.4" />
@@ -461,13 +488,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/autoai-product/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/autoai-demol/src/main/java/com/navinfo/autoai/autoaidemol/service/A.java" />
     <entry file="file://$PROJECT_DIR$/autoai-demol/src/main/java/com/navinfo/autoai/autoaidemol/service/impl/ProductServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -513,13 +533,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/autoai-eureka/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="15" column="59" selection-start-line="15" selection-start-column="59" selection-end-line="15" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/autoai-flow/src/test/java/com/navinfo/autoai/autoaiflow/AutoaiFlowApplicationTests.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -543,13 +556,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="14256">
           <caret line="622" selection-start-line="622" selection-end-line="622" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/autoai-demol/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1944">
-          <caret line="72" selection-start-line="72" selection-end-line="72" />
         </state>
       </provider>
     </entry>
@@ -662,8 +668,46 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="609">
-          <caret line="86" column="19" lean-forward="true" selection-start-line="86" selection-start-column="19" selection-end-line="86" selection-end-column="19" />
+        <state relative-caret-position="189">
+          <caret line="7" column="36" lean-forward="true" selection-start-line="7" selection-start-column="36" selection-end-line="7" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/autoai-channel/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="8" column="27" lean-forward="true" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/autoai-demol/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="8" column="27" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/autoai-eureka/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="8" column="28" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="28" />
+          <folding>
+            <marker date="1564982888758" expanded="true" signature="439:454" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/autoai-flow/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="8" column="27" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/autoai-product/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="8" column="27" lean-forward="true" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="27" />
         </state>
       </provider>
     </entry>
